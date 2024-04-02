@@ -150,3 +150,4 @@ CORS_ORIGIN_WHITELIST = ('http://127.0.0.1:3000', 'http://localhost:3000')
 
 import django_heroku
 django_heroku.settings(locals())
+SESSION_COOKIE_SECURE = True
